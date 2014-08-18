@@ -18,8 +18,8 @@ module TBK
 				'VC' => 'Venta Cuotas',
 				'SI' => 'Tres Cuotas Sin Interes',
 				'S2' => 'Dos Cuotas Sin Interes',
-				'CI' => 'Cuotas Comercio'
-
+				'CI' => 'Cuotas Comercio',
+				'VD' => 'Redcompra'
 			}
 
 			attr_accessor :commerce
