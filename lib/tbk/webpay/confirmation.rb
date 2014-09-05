@@ -71,6 +71,10 @@ module TBK
 				self.params[:TBK_MAC]
 			end
 
+			def number_of_fees
+				self.params[:TBK_NUMERO_CUOTAS]
+			end
+
 			def card_display_number
 				"XXXX-XXXX-XXXX-#{ card_last_numbers }"
 			end
@@ -124,7 +128,7 @@ module TBK
 						@params[key.to_sym] = CGI.unescape(value)
 					end
 					@params[:TBK_MAC] = decrypted_params[:signature]
-
+					
 					TBK::Webpay.logger.confirmation(self)
 
 					true
