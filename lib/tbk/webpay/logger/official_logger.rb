@@ -184,7 +184,7 @@ URLCGIMEDTRA = /filtroUnificado/bp_validacion.cgi
 SERVERTRA = %<webpay_server>s
 PORTTRA = %<webpay_server_port>s
 PREFIJO_CONF_TR = HTML_
-HTML_TR_NORMAL = http://127.0.0.1/webpay/notify
+HTML_TR_NORMAL = http://127.0.0.1/payments/webpay/notify
 EOF
 
       end
